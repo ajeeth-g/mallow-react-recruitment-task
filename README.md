@@ -4,7 +4,7 @@ A responsive single-page application (SPA) for managing users. Built with **Reac
 
 ## 🔗 Live Demo
 
-🌐 [Click here to view the live app](user-management-app.netlify.app)
+🌐 [Click here to view the live app](https://user-management-app-mini.netlify.app)
 
 ---
 
