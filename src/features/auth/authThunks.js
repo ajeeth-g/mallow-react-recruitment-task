@@ -5,6 +5,12 @@ export const loginUser = createAsyncThunk(
   'auth/login',
   async (credentials, { rejectWithValue }) => {
     try {
+      const { email, password } = credentials;
+
+      if (email !== 'eve.holt@reqres.in' || password !== 'cityslicka') {
+        return rejectWithValue('Invalid email or password');
+      }
+
       const response = await login(credentials);
 
       if (response.data.error) {
